@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo.png">
+    <title>Donating</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt=" Logo" id="logo" /> 
+        <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Governorates</a></li>
+          <li><a href="#">Devices</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About </a></li>
+        </ul>
+      </nav>
+      </header>
+     
+   <fieldset>
+    <form>
+    <h1 style="color: #062F6A; text-align: center;">Donating Medical Equipment</h1><br> 
+
+
+
+    <div style="text-align: center;"><label for="name">Name:</label>
+     <input id="name" type="text" name="name" ><br><br>
+
+
+    <label for="tel">Phone:</label>
+     <input id="tel" type="tel" name="phone"><br><br>
+
+
+
+    <label for="email">Email:</label>
+     <input id="email" type="email" name="email" placeholder="email@gmail.com"><br><br>
+
+
+    <label for="address">Address:</label>
+     <input id="address" type="address"><br><br>
+
+
+    <label for="option1">Governorates:</label>
+
+   <select name="select1" id="Gover"  >
+
+   <option value="Amman">Amman</option>
+   <option value="Ma'an">Ma'an</option>
+   <option value="Zarqa">Zarqa</option>
+   <option value="Karak">Karak</option>
+   <option value="Balqa'">Balqa'</option>
+   <option value="Irbid">Irbid</option>
+   <option value="Madaba">Madaba</option>
+   <option value="Tafilah">Tafilah</option>
+   <option value="Mafraq">Mafraq</option>
+   <option value="Aqaba">Aqaba</option>
+   <option value="Ajloun">Ajloun</option>
+   <option value="Jerash">Jerash</option></select><br><br>
+   <label for="Medical">Medical device :</label>
+   <select name="select2" id="Medical">
+   <option value="">Hadeel</option>
+   <option value="">Rahaf</option>
+</select><br><br>
+<label for=" ">Device status:</label>
+   <select name="select3" id="Device">
+   <option value="good">Good</option>
+   <option value="Medium">Medium</option>
+   <option value="It needs maintenance">It needs maintenance</option>
+</select><br><br>
+<label for="imagech">picture of the device:</label>
+<input id="imagech" type="file" name=" picture of the device "><br><br><br>
+<input type="submit" name="submit" value="DONATE">
+
+</div>
+    </form>
+   </fieldset> 
+      <!-- <footer>
+        <p>&copy; 2024 Donating Medical Equipment. All Right Reserved.</p>
+      </footer> -->
+</body>
+</html>
